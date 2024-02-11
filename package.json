@@ -1,0 +1,24 @@
+{
+  "name": "qrcodegenerator",
+  "version": "1.0.0",
+  "description": "Generate QR Code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MysivDev/QRCodeGenerator.git"
+  },
+  "author": "MysivDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MysivDev/QRCodeGenerator/issues"
+  },
+  "homepage": "https://github.com/MysivDev/QRCodeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^9.2.14",
+    "qr-image": "^3.2.0"
+  }
+}
