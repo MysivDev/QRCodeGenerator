@@ -12,7 +12,8 @@ inquirer
     .then((answers) => {
         const url = answers.URL;
         var urlImage = qr.image(url);
-        qr_svg.pipe(fs.createWriteStream("qr-image.png"));
+        urlImage.pipe(fs.createWriteStream("qr-image.png"));
+        //Fixed var name in the pipe function...
 
         fs.writeFile("UserUrl.txt", url, (err) => {
             if (err) throw err;
